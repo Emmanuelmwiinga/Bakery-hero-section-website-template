@@ -219,7 +219,7 @@ nav a:hover{
 .contact-info{
   font-family: Sans-Serif;
   display: flex;
-  margin-top: 25rem;
+  margin-top: 20rem;
 }
 @media (max-width:900px){
     .hideonmobile{
