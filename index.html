@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+  <div id="preloader">
+    <img src="assets/baking.gif" alt="loading..." height="128px" width="128px">
+  </div>
+  <div id="content" style="display:none;">
+<header>
+<nav>
+<div class="nav-side" id="left-side-nav">
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><img src="assets/close.png" height="26px" width="26px"></li>
+        <li><a href="">Home<i class="fas fa-home"></i></a></li>
+        <li><a href="">About<i class="fas fa-birthday-cake"></i></a></li>
+        <li><a href="">Bakers<i class="fas fa-utensils"></i></a></li>
+        <li><a href="">Contact<i class="fas fa-phone"></i></a></li>
+      <div class="contact-info">
+          <span>Designed by <a href="https://github.com/Emmanuelmwiinga">Emmanuel.dev<i class="fab brand fa-github"></i></a>.© 2025 all rights reserved</span>
+      </div>
+    </ul>
+    <ul>
+        <li><a href="">Bakery</a></li>
+        <li class="hideonmobile"><a href="">Home</a></li>
+        <li class="hideonmobile"><a href="">About</a></li>
+        <li class="hideonmobile"><a href="">Bakers</a></li>
+        <li class="hideonmobile"><a href="">Contact</a></li>
+        <li class="menu" onclick=showSidebar()><img src="assets/menu.png" height="26px" width="26"></li>
+    </ul>
+</div>
+</div>
+</nav>
+</header>
+<main>
+    <section id="hero">
+        <div class="hero-container">
+            <div id="left-side" class="side">
+            <h2 class="title">Best <span class="fancy-left">vanilla</span> flavoured cake in town 
+            </h2>
+            <div class="hero-btn-left">
+              <a href="" class="btn-left">Order Now<i class="fas fa-shopping-cart"></i></a>
+            </div>
+            
+            </div>
+            <div id="right-side" class="side">
+              <h2 class="title">Best <span class="fancy-right">chocolate</span> flavoured cake in town
+              </h2>
+              <div class="hero-btn-right">
+                <a href="" class="btn-right">Order Now <i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+        </div>
+    </section>
+</main>
+</div>
+</body>
+<script src="js/gsap.min.js"></script>
+<script src="js/SplitText.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/Carousel.js"></script>
+</html>
